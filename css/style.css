@@ -1,0 +1,44 @@
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #294c46;
+}
+
+#loading-screen {
+    top: 0;
+    left: 0;
+    background-color: #294c46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Ensure it's above other elements */
+}
+
+#loading-screen img {
+    height: 900px;
+    width: 900px;
+}
+
+.loading {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    color: #58817a;
+    font-family: monospace;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Ensure it's above other elements */
+}
+
+#main-content {
+    display: none; /* Hide main content initially */
+}
+/* .oval {
+    height: 50px;
+    width: 100px;
+    background-color: #555;
+    border-radius: 50%;
+  } */
