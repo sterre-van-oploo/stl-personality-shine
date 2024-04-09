@@ -1,0 +1,53 @@
+.main-meat:not(:hover),
+.main-meat-details-right:not(:hover),
+.main-meat-details-left:not(:hover){
+    transition: all 0.5s ease-in-out;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.meat {
+    cursor: pointer;
+}
+
+.meat:hover .main-meat {
+    position: absolute;
+    height: 200px;
+    width: 430px;
+    background-color: #51280f;
+    left: 34%;
+    top: 30%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 15px;
+    z-index: 18;
+    transition: all 0.5s ease-in-out;
+}
+
+.meat:hover .main-meat-details-right {
+    position: absolute;
+    left: 61.5%;
+    top: 29%;
+    height: 155px;
+    width: 100px;
+    background-color: #51280f;    
+    border-radius: 15px;
+    z-index: 18;
+    transition: all 0.5s ease-in-out;
+}
+
+.meat:hover .main-meat-details-left {
+    position: absolute;
+    right: 65.4%;
+    top: 25.3%;
+    height: 105px;
+    width: 70px;
+    background-color: #51280f;    
+    border-radius: 15px;
+    z-index: 18;
+    transition: all 0.5s ease-in-out;
+}

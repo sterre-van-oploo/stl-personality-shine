@@ -1,0 +1,151 @@
+.cabbage-1:not(:hover),
+.cabbage-2:not(:hover),
+.cabbage-3:not(:hover),
+.cabbage-4:not(:hover),
+.cabbage-5:not(:hover),
+.cabbage-6:not(:hover),
+.cabbage-7:not(:hover),
+.cabbage-7-filler-1:not(:hover),
+.cabbage-7-filler-2:not(:hover),
+.cabbage-7-filler-3:not(:hover){
+    transition: all 0.5s ease-in-out;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.cabbage {
+    cursor: pointer;
+}
+
+.cabbage:hover .cabbage-1{
+    position: absolute;
+    right: 65%;
+    top: 40%;
+    width: 80px;
+    height: 100px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 30deg;
+    z-index: 16;
+    transition: all 0.5s ease-in-out;
+}
+
+.cabbage:hover .cabbage-2{
+    position: absolute;
+    right: 63%;
+    top: 50%;
+    width: 100px;
+    height: 70px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 20deg;
+    z-index: 16;
+    transition: all 0.5s ease-in-out;
+}
+
+.cabbage:hover .cabbage-3{
+    position: absolute;
+    right: 60%;
+    top: 53%;
+    width: 80px;
+    height:90px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 90deg;
+    z-index: 16;
+    transition: all 0.5s ease-in-out;
+}
+
+.cabbage:hover .cabbage-4{
+    position: absolute;
+    right: 54%;
+    top: 52%;
+    width: 70px;
+    height: 100px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 70deg;
+    z-index: 16;
+    transition: all 0.5s ease-in-out;
+}
+
+.cabbage:hover .cabbage-5{
+    position: absolute;
+    right: 46%;
+    top: 48%;
+    width: 80px;
+    height: 140px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 70deg;
+    z-index: 16;
+    transition: all 0.5s ease-in-out;
+}
+
+.cabbage:hover .cabbage-6{
+    position: absolute;
+    right: 36%;
+    top: 41%;
+    width: 100px;
+    height: 190px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 90deg;
+    z-index: 16;
+    transition: all 0.5s ease-in-out;
+}
+
+.cabbage:hover .cabbage-7{
+    position: absolute;
+    right: 31%;
+    top: 45%;
+    width: 80px;
+    height: 50px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 20deg;
+    z-index: 16;
+    transition: all 0.5s ease-in-out;
+}
+
+.cabbage:hover .cabbage-7-filler-1{
+    position: absolute;
+    right: 65%;
+    top: 35%;
+    width: 80px;
+    height: 100px;
+    background: #4c5a2a;
+    border-radius: 20%;
+    rotate: 0deg;
+    z-index: 16;
+    transition: all 0.5s ease-in-out;
+}
+
+.cabbage:hover .cabbage-7-filler-2{
+    position: absolute;
+    right: 31%;
+    top: 37%;
+    width: 80px;
+    height: 140px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: -10deg;
+    z-index: 16;
+    transition: all 0.5s ease-in-out;
+}
+
+.cabbage:hover .cabbage-7-filler-3 {
+    position: absolute;
+    right: 35%;
+    top: 38%;
+    width: 450px;
+    height: 150px;
+    background: #4c5a2a;
+    border-radius: 20%;
+    rotate: -10deg;
+    z-index: 16;
+}

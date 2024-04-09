@@ -1,0 +1,70 @@
+.oval:not(:hover),
+.bottom-oval:not(:hover),
+.parallelogram:not(:hover),
+.bottom-parallelogram:not(:hover),
+.bottom-parallelogram-details:not(:hover){
+    transition: all 0.5s ease-in-out;
+}
+
+/* .below-top-bread {
+    position: relative;
+    transition: transform 0.3s ease-out; Add transition for smooth animation
+    left: auto; Maintain original left position
+    right: auto; Maintain original right position
+}  */
+
+/* Apply styles to push elements down when top-bread is hovered */
+/* .top-bread:hover ~ .below-top-bread {
+    transform: translateY(30px); Move down the elements below top-bread
+}
+
+.transition-elements {
+    transition: transform 0.3s ease-out;
+} */
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.top-bread {
+    cursor: pointer;
+}
+
+.top-bread:hover .bottom-oval {
+    position: absolute;
+    height: 361px;
+    width: 329px;
+    border-radius: 50%; 
+    left: 30%;
+    top: 10%;
+    background-color: #b85f2d;
+    z-index: 19;
+    transition: all 0.5s ease-in-out;
+}
+
+.top-bread:hover .bottom-parallelogram {
+    position: absolute;
+    height: 310px;
+    width: 305px;
+    background-color: #b85f2d;
+    left: 41%;
+    top: 11%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 10px;
+    z-index: 19;
+    transition: all 0.5s ease-in-out;
+}
+
+.top-bread:hover .bottom-parallelogram-details {
+    position: absolute;
+    left: 62.15%;
+    top: 24%;
+    height: 143px;
+    width: 100px;
+    background-color: #b85f2d;
+    z-index: 19;
+    transition: all 0.5s ease-in-out;
+}

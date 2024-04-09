@@ -151,16 +151,16 @@ body {
 .tomato-2{
     position: absolute;
     right: 52.4%;
-    top: 40%;
+    top: 30%;
     width: 160px;
-    height: 90px;
+    height: 200px;
     background: #932826;
     border-radius: 50%;
     rotate: 0deg;
     z-index: 17;
 }
 
-.tomato-3{
+.tomato-3{ 
     position: absolute;
     right: 42%;
     top: 36.5%;
@@ -184,6 +184,29 @@ body {
     z-index: 17;
 }
 
+.tomato-filler{
+    position: absolute;
+    right: 32%;
+    top: 33%;
+    width: 330px;
+    height: 100px;
+    background: #932826;
+    border-radius: 50%;
+    rotate: -10deg;
+    z-index: 17;
+}
+
+.tomato-filler-2{
+    position: absolute;
+    right: 54.6%;
+    top: 28%;
+    width: 220px;
+    height: 100px;
+    background: #932826;
+    border-radius: 20%;
+    rotate: 0deg;
+    z-index: 17;
+}
 /* end of tomatoes */
 /* cabbage */
 
@@ -271,6 +294,54 @@ body {
     z-index: 16;
 }
 
+.cabbage-7-filler-1{
+    position: absolute;
+    right: 31%;
+    top: 37%;
+    width: 80px;
+    height: 50px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 20deg;
+    z-index: 16;
+}
+
+.cabbage-7-filler-1{
+    position: absolute;
+    right: 68.7%;
+    top: 35%;
+    width: 30px;
+    height: 30px;
+    background: #4c5a2a;
+    border-radius: 20%;
+    rotate: 0deg;
+    z-index: 16;
+}
+
+.cabbage-7-filler-2{
+    position: absolute;
+    right: 31%;
+    top: 37%;
+    width: 80px;
+    height: 50px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 20deg;
+    z-index: 16;
+}
+
+.cabbage-7-filler-3 {
+    position: absolute;
+    right: 35%;
+    top: 38%;
+    width: 450px;
+    height: 80px;
+    background: #4c5a2a;
+    border-radius: 20%;
+    rotate: -10deg;
+    z-index: 16;
+}
+
 /* end of cabbage */
 /* bottom bread */
 
@@ -333,101 +404,4 @@ body {
 }
 
 /* end of bottom bread */
-/* expand */
-
-.oval:not(:hover),
-.bottom-oval:not(:hover),
-.parallelogram:not(:hover),
-.bottom-parallelogram:not(:hover),
-.bottom-parallelogram-details:not(:hover){
-    transition: all 0.15s ease-in-out;
-}
-
-/* .below-top-bread {
-    position: relative;
-    transition: transform 0.3s ease-out; Add transition for smooth animation
-    left: auto; Maintain original left position
-    right: auto; Maintain original right position
-}  */
-
-/* Apply styles to push elements down when top-bread is hovered */
-/* .top-bread:hover ~ .below-top-bread {
-    transform: translateY(30px); Move down the elements below top-bread
-}
-
-.transition-elements {
-    transition: transform 0.3s ease-out;
-} */
-
-#main-content {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px; /* Adjust as needed */
-}
-
-.top-bread {
-    cursor: pointer;
-}
-
-/* Styling for the elements within top-bread when hovered */
-.top-bread:hover .oval {
-    position: absolute;
-    height: 230px;
-    width: 300px;
-    border-radius: 50%;
-    left: 30%;
-    top: 10%;
-    background-color: #f6c98e;
-    z-index: 20;  
-}
-
-.top-bread:hover .bottom-oval {
-    position: absolute;
-    height: 361px;
-    width: 329px;
-    border-radius: 50%;
-    left: 30%;
-    top: 10%;
-    background-color: #b85f2d;
-    z-index: 19;
-    transition: all 0.15s ease-in-out;
-}
-
-.top-bread:hover .parallelogram {
-    position: absolute;
-    height: 205px;
-    width: 310px;
-    background-color: #f6c98e;
-    left: 43%;
-    top: 6%;
-    transform: skew(23deg);
-    rotate: 348deg;
-    border-radius: 10px;
-    z-index: 20;
-}
-
-.top-bread:hover .bottom-parallelogram {
-    position: absolute;
-    height: 310px;
-    width: 305px;
-    background-color: #b85f2d;
-    left: 41%;
-    top: 11%;
-    transform: skew(23deg);
-    rotate: 348deg;
-    border-radius: 10px;
-    z-index: 19;
-}
-
-.top-bread:hover .bottom-parallelogram-details {
-    position: absolute;
-    left: 62.15%;
-    top: 24%;
-    height: 143px;
-    width: 100px;
-    background-color: #b85f2d;
-    z-index: 19;
-}
-
-/* end of expand */
 /* END OF MAIN SCREEN */

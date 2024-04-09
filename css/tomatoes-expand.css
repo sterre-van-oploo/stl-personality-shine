@@ -1,0 +1,96 @@
+.tomato-1:not(:hover),
+.tomato-2:not(:hover),
+.tomato-3:not(:hover),
+.tomato-4:not(:hover),
+.tomato-filler:not(:hover),
+.tomato-filler-2:not(:hover){
+    transition: all 0.5s ease-in-out;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.tomatoes {
+    cursor: pointer;
+}
+
+.tomatoes:hover .tomato-1{
+    position: absolute;
+    right: 61%;
+    top: 50%;
+    width: 130px;
+    height: 100px;
+    background: #932826;
+    border-radius: 50%;
+    rotate: 40deg;
+    z-index: 17;
+    transition: all 0.5s ease-in-out;
+}
+
+.tomatoes:hover .tomato-2{
+    position: absolute;
+    right: 52.4%;
+    top: 48%;
+    width: 160px;
+    height: 200px;
+    background: #932826;
+    border-radius: 50%;
+    rotate: 0deg;
+    z-index: 17;
+    transition: all 0.5s ease-in-out;
+}
+
+.tomatoes:hover .tomato-3{
+    position: absolute;
+    right: 42%;
+    top: 40%;
+    width: 180px;
+    height: 210px;
+    background: #932826;
+    border-radius: 50%;
+    rotate: -10deg;
+    z-index: 17;
+    transition: all 0.5s ease-in-out;
+}
+
+.tomatoes:hover .tomato-4{
+    position: absolute;
+    right: 32%;
+    top: 49%;
+    width: 150px;
+    height: 100px;
+    background: #932826;
+    border-radius: 50%;
+    rotate: -10deg;
+    z-index: 17;
+    transition: all 0.5s ease-in-out;
+}
+
+.tomatoes:hover .tomato-filler{
+    position: absolute;
+    right: 32.5%;
+    top: 30%;
+    width: 330px;
+    height: 240px;
+    background: #932826;
+    border-radius: 20%;
+    rotate: 0deg;
+    z-index: 17;
+    transition: all 0.5s ease-in-out;
+}
+
+.tomatoes:hover .tomato-filler-2{
+    position: absolute;
+    right: 54.6%;
+    top: 28%;
+    width: 220px;
+    height: 270px;
+    background: #932826;
+    border-radius: 20%;
+    rotate: 0deg;
+    z-index: 17;
+    transition: all 0.5s ease-in-out;
+}
