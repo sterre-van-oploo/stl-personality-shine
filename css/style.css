@@ -4,15 +4,16 @@ body {
     overflow: hidden;
     background-color: #294c46;
 }
-
-#loading-screen {
+/* LOADING SCREEN */
+/* (**) */
+/* #loading-screen {
     top: 0;
     left: 0;
     background-color: #294c46;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 9999; /* Ensure it's above other elements */
+    z-index: 9999;
 }
 
 #loading-screen img {
@@ -30,15 +31,403 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 9999; /* Ensure it's above other elements */
+    z-index: 9999; 
 }
 
 #main-content {
-    display: none; /* Hide main content initially */
-}
-/* .oval {
-    height: 50px;
-    width: 100px;
-    background-color: #555;
+    display: none; 
+}  */
+/* END OF LOADING SCREEN */
+
+/* MAIN SCREEN */
+/* top bread */
+.oval {
+    position: absolute;
+    height: 230px;
+    width: 300px;
     border-radius: 50%;
-  } */
+    left: 30%;
+    top: 10%;
+    background-color: #f6c98e;
+    z-index: 20;
+  }
+
+.bottom-oval {
+    position: absolute;
+    height: 270px;
+    width: 320px;
+    border-radius: 50%;
+    left: 30%;
+    top: 10%;
+    background-color: #b85f2d;
+    z-index: 19;
+}
+
+.parallelogram {
+    position: absolute;
+    height: 205px;
+    width: 310px;
+    background-color: #f6c98e;
+    left: 43%;
+    top: 6%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 10px;
+    z-index: 20;
+}
+
+.bottom-parallelogram {
+    position: absolute;
+    height: 205px;
+    width: 310px;
+    background-color: #b85f2d;
+    left: 43%;
+    top: 11%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 10px;
+    z-index: 19;
+}
+
+.bottom-parallelogram-details {
+    position: absolute;
+    left: 66.5%;
+    top: 24%;
+    height: 43px;
+    width: 40px;
+    background-color: #b85f2d;
+    z-index: 19;
+}
+/* end of top bread */
+/* meat */
+.main-meat {
+    position: absolute;
+    height: 160px;
+    width: 465px;
+    background-color: #51280f;
+    left: 32.5%;
+    top: 23%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 15px;
+    z-index: 18;
+}
+
+.main-meat-details-right {
+    position: absolute;
+    left: 66%;
+    top: 29%;
+    height: 50px;
+    width: 40px;
+    background-color: #51280f;    
+    border-radius: 15px;
+    z-index: 18;
+}
+
+.main-meat-details-left {
+    position: absolute;
+    right: 67.5%;
+    top: 25.3%;
+    height: 50px;
+    width: 40px;
+    background-color: #51280f;    
+    border-radius: 15px;
+    z-index: 18;
+}
+/* end of meat */
+/* tomatoes */
+.tomato-1{
+    position: absolute;
+    right: 61%;
+    top: 34%;
+    width: 130px;
+    height: 100px;
+    background: #932826;
+    border-radius: 50%;
+    rotate: 40deg;
+    z-index: 17;
+}
+
+.tomato-2{
+    position: absolute;
+    right: 52.4%;
+    top: 40%;
+    width: 160px;
+    height: 90px;
+    background: #932826;
+    border-radius: 50%;
+    rotate: 0deg;
+    z-index: 17;
+}
+
+.tomato-3{
+    position: absolute;
+    right: 42%;
+    top: 36.5%;
+    width: 160px;
+    height: 110px;
+    background: #932826;
+    border-radius: 50%;
+    rotate: -10deg;
+    z-index: 17;
+}
+
+.tomato-4{
+    position: absolute;
+    right: 32%;
+    top: 33%;
+    width: 150px;
+    height: 100px;
+    background: #932826;
+    border-radius: 50%;
+    rotate: -10deg;
+    z-index: 17;
+}
+
+/* end of tomatoes */
+/* cabbage */
+
+.cabbage-1{
+    position: absolute;
+    right: 65%;
+    top: 32%;
+    width: 80px;
+    height: 100px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 30deg;
+    z-index: 16;
+}
+
+.cabbage-2{
+    position: absolute;
+    right: 63%;
+    top: 42%;
+    width: 100px;
+    height: 70px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 20deg;
+    z-index: 16;
+}
+
+.cabbage-3{
+    position: absolute;
+    right: 60%;
+    top: 45%;
+    width: 80px;
+    height:90px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 90deg;
+    z-index: 16;
+}
+
+.cabbage-4{
+    position: absolute;
+    right: 54%;
+    top: 44%;
+    width: 70px;
+    height: 100px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 70deg;
+    z-index: 16;
+}
+
+.cabbage-5{
+    position: absolute;
+    right: 46%;
+    top: 40%;
+    width: 80px;
+    height: 140px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 70deg;
+    z-index: 16;
+}
+
+.cabbage-6{
+    position: absolute;
+    right: 36%;
+    top: 33%;
+    width: 100px;
+    height: 190px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 90deg;
+    z-index: 16;
+}
+
+.cabbage-7{
+    position: absolute;
+    right: 31%;
+    top: 37%;
+    width: 80px;
+    height: 50px;
+    background: #4c5a2a;
+    border-radius: 50%;
+    rotate: 20deg;
+    z-index: 16;
+}
+
+/* end of cabbage */
+/* bottom bread */
+
+.oval-bottom-bread {
+    position: absolute;
+    height: 230px;
+    width: 300px;
+    border-radius: 50%;
+    left: 30%;
+    top: 30%;
+    background-color: #f6c98e;
+    z-index: 15;
+  }
+
+.bottom-oval-bottom-bread {
+    position: absolute;
+    height: 270px;
+    width: 320px;
+    border-radius: 50%;
+    left: 30%;
+    top: 30%;
+    background-color: #b85f2d;
+    z-index: 14;
+}
+
+.parallelogram-bottom-bread {
+    position: absolute;
+    height: 205px;
+    width: 310px;
+    background-color: #f6c98e;
+    left: 43%;
+    top: 26%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 10px;
+    z-index: 15;
+}
+
+.bottom-parallelogram-bottom-bread {
+    position: absolute;
+    height: 205px;
+    width: 310px;
+    background-color: #b85f2d;
+    left: 43%;
+    top: 31%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 10px;
+    z-index: 14;
+}
+
+.bottom-parallelogram-details-bottom-bread {
+    position: absolute;
+    left: 66.5%;
+    top: 44%;
+    height: 43px;
+    width: 40px;
+    background-color: #b85f2d;
+    z-index: 14;
+}
+
+/* end of bottom bread */
+/* expand */
+
+.oval:not(:hover),
+.bottom-oval:not(:hover),
+.parallelogram:not(:hover),
+.bottom-parallelogram:not(:hover),
+.bottom-parallelogram-details:not(:hover){
+    transition: all 0.15s ease-in-out;
+}
+
+/* .below-top-bread {
+    position: relative;
+    transition: transform 0.3s ease-out; Add transition for smooth animation
+    left: auto; Maintain original left position
+    right: auto; Maintain original right position
+}  */
+
+/* Apply styles to push elements down when top-bread is hovered */
+/* .top-bread:hover ~ .below-top-bread {
+    transform: translateY(30px); Move down the elements below top-bread
+}
+
+.transition-elements {
+    transition: transform 0.3s ease-out;
+} */
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; /* Adjust as needed */
+}
+
+.top-bread {
+    cursor: pointer;
+}
+
+/* Styling for the elements within top-bread when hovered */
+.top-bread:hover .oval {
+    position: absolute;
+    height: 230px;
+    width: 300px;
+    border-radius: 50%;
+    left: 30%;
+    top: 10%;
+    background-color: #f6c98e;
+    z-index: 20;  
+}
+
+.top-bread:hover .bottom-oval {
+    position: absolute;
+    height: 361px;
+    width: 329px;
+    border-radius: 50%;
+    left: 30%;
+    top: 10%;
+    background-color: #b85f2d;
+    z-index: 19;
+    transition: all 0.15s ease-in-out;
+}
+
+.top-bread:hover .parallelogram {
+    position: absolute;
+    height: 205px;
+    width: 310px;
+    background-color: #f6c98e;
+    left: 43%;
+    top: 6%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 10px;
+    z-index: 20;
+}
+
+.top-bread:hover .bottom-parallelogram {
+    position: absolute;
+    height: 310px;
+    width: 305px;
+    background-color: #b85f2d;
+    left: 41%;
+    top: 11%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 10px;
+    z-index: 19;
+}
+
+.top-bread:hover .bottom-parallelogram-details {
+    position: absolute;
+    left: 62.15%;
+    top: 24%;
+    height: 143px;
+    width: 100px;
+    background-color: #b85f2d;
+    z-index: 19;
+}
+
+/* end of expand */
+/* END OF MAIN SCREEN */
