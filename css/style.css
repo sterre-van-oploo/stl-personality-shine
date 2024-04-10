@@ -3,6 +3,7 @@ body {
     margin: 0;
     overflow: hidden;
     background-color: #294c46;
+    font-family: monospace;
 }
 /* LOADING SCREEN */
 /* (**) */
@@ -49,7 +50,7 @@ body {
     left: 30%;
     top: 10%;
     background-color: #f6c98e;
-    z-index: 20;
+    z-index: 21;
   }
 
 .bottom-oval {
@@ -60,7 +61,7 @@ body {
     left: 30%;
     top: 10%;
     background-color: #b85f2d;
-    z-index: 19;
+    z-index: 20;
 }
 
 .parallelogram {
@@ -73,7 +74,7 @@ body {
     transform: skew(23deg);
     rotate: 348deg;
     border-radius: 10px;
-    z-index: 20;
+    z-index: 21;
 }
 
 .bottom-parallelogram {
@@ -86,7 +87,8 @@ body {
     transform: skew(23deg);
     rotate: 348deg;
     border-radius: 10px;
-    z-index: 19;
+    z-index: 20;
+    
 }
 
 .bottom-parallelogram-details {
@@ -96,7 +98,7 @@ body {
     height: 43px;
     width: 40px;
     background-color: #b85f2d;
-    z-index: 19;
+    z-index: 20;
 }
 /* end of top bread */
 /* meat */
@@ -353,7 +355,7 @@ body {
     left: 30%;
     top: 30%;
     background-color: #f6c98e;
-    z-index: 15;
+    z-index: 14;
   }
 
 .bottom-oval-bottom-bread {
@@ -364,7 +366,7 @@ body {
     left: 30%;
     top: 30%;
     background-color: #b85f2d;
-    z-index: 14;
+    z-index: 12;
 }
 
 .parallelogram-bottom-bread {
@@ -377,7 +379,7 @@ body {
     transform: skew(23deg);
     rotate: 348deg;
     border-radius: 10px;
-    z-index: 15;
+    z-index: 14;
 }
 
 .bottom-parallelogram-bottom-bread {
@@ -390,7 +392,7 @@ body {
     transform: skew(23deg);
     rotate: 348deg;
     border-radius: 10px;
-    z-index: 14;
+    z-index: 13;
 }
 
 .bottom-parallelogram-details-bottom-bread {
@@ -400,8 +402,70 @@ body {
     height: 43px;
     width: 40px;
     background-color: #b85f2d;
-    z-index: 14;
+    z-index: 13;
 }
 
 /* end of bottom bread */
+/* other styling */
+
+ .ab-cafe {
+    position: absolute;
+    top: 27.7%;
+    left: 50%;
+    rotate: 348deg;
+    z-index: 21;
+    font-style: oblique;
+    font-weight: light;
+    transform: skew(-5deg);
+    color: #773712;
+ }
+
+ .location {
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    rotate: 348deg;
+    z-index: 19;
+    font-style: oblique;
+    font-weight: light;
+    transform: skew(-5deg);
+    color: #271206;
+ }
+
+ .menu {
+    position: absolute;
+    top: 36%;
+    left: 58%;
+    rotate: 348deg;
+    z-index: 17;
+    font-style: oblique;
+    font-weight: light;
+    transform: skew(-5deg);
+    color: #5f1715;
+ }
+
+ .contact {
+    position: absolute;
+    top: 42.5%;
+    left: 58%;
+    rotate: 348deg;
+    z-index: 16;
+    font-style: oblique;
+    font-weight: light;
+    transform: skew(-5deg);
+    color: #323e16;
+ }
+
+ .reservation {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    rotate: 348deg;
+    z-index: 14;
+    font-style: oblique;
+    font-weight: light;
+    transform: skew(-5deg);
+    color: #773712;
+ }
+/* end of other styling */
 /* END OF MAIN SCREEN */

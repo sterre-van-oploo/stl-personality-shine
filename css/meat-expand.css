@@ -24,7 +24,7 @@
     transform: skew(23deg);
     rotate: 348deg;
     border-radius: 15px;
-    z-index: 18;
+    z-index: 19;
     transition: all 0.5s ease-in-out;
 }
 
@@ -48,6 +48,6 @@
     width: 70px;
     background-color: #51280f;    
     border-radius: 15px;
-    z-index: 18;
+    z-index: 19;
     transition: all 0.5s ease-in-out;
 }

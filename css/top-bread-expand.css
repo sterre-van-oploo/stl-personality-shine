@@ -40,7 +40,7 @@
     left: 30%;
     top: 10%;
     background-color: #b85f2d;
-    z-index: 19;
+    z-index: 20;
     transition: all 0.5s ease-in-out;
 }
 
@@ -54,7 +54,7 @@
     transform: skew(23deg);
     rotate: 348deg;
     border-radius: 10px;
-    z-index: 19;
+    z-index: 20;
     transition: all 0.5s ease-in-out;
 }
 
@@ -65,6 +65,7 @@
     height: 143px;
     width: 100px;
     background-color: #b85f2d;
-    z-index: 19;
+    z-index: 20;
     transition: all 0.5s ease-in-out;
 }
+

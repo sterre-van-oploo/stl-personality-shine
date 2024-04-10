@@ -1,0 +1,55 @@
+.oval-bottom-bread:not(:hover),
+.bottom-oval-bottom-bread:not(:hover),
+.parallelogram-bottom-bread:not(:hover),
+.bottom-parallelogram-bottom-bread:not(:hover),
+.bottom-parallelogram-details-bottom-bread:not(:hover){
+    transition: all 0.5s ease-in-out;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px; 
+}
+
+.bottom-bread {
+    cursor: pointer;
+}
+
+.bottom-bread:hover .bottom-oval-bottom-bread {
+    position: absolute;
+    height: 370px;
+    width: 320px;
+    border-radius: 50%;
+    left: 30%;
+    top: 30%;
+    background-color: #b85f2d;
+    z-index: 13;
+    transition: all 0.5s ease-in-out;
+}
+
+.bottom-bread:hover .bottom-parallelogram-bottom-bread {
+    position: absolute;
+    height: 305px;
+    width: 320px;
+    background-color: #b85f2d;
+    left: 40%;
+    top: 31%;
+    transform: skew(23deg);
+    rotate: 348deg;
+    border-radius: 10px;
+    z-index: 13;
+    transition: all 0.5s ease-in-out;
+}
+
+.bottom-bread:hover .bottom-parallelogram-details-bottom-bread {
+    position: absolute;
+    left: 63.7%;
+    top: 44%;
+    height: 145px;
+    width: 80px;
+    background-color: #b85f2d;
+    z-index: 13;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}

@@ -14,3 +14,24 @@
 //         }, 200); // Adjust the delay based on your needs
 //     }, 5000); // Adjust the timeout value based on the duration of your loading video or GIF
 // });
+
+// // Wait for the DOM content to be fully loaded
+// document.addEventListener('DOMContentLoaded', function() {
+//     // Get the .bottom-parallelogram element
+//     const bottomParallelogram = document.querySelector('.bottom-parallelogram');
+
+//     // Get the .ab-cafe-text element
+//     const abCafeText = document.querySelector('.ab-cafe-text');
+
+//     // Add event listener to toggle visibility of text on mouseover
+//     bottomParallelogram.addEventListener('mouseover', function() {
+//         abCafeText.style.visibility = 'visible';
+//     });
+
+//     // Add event listener to hide text on mouseout
+//     bottomParallelogram.addEventListener('mouseout', function() {
+//         abCafeText.style.visibility = 'hidden';
+//     });
+// });
+
+
