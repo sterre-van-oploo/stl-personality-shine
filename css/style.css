@@ -7,14 +7,16 @@ body {
 }
 /* LOADING SCREEN */
 /* (**) */
-/* #loading-screen {
-    top: 0;
-    left: 0;
+    #loading-screen {
+    position: absolute;
+    top: 0.5%;
+    left: 18.5%;
     background-color: #294c46;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 9999;
+    z-index: 200;
+    transition: all 0.3s ease-in-out;
 }
 
 #loading-screen img {
@@ -24,20 +26,20 @@ body {
 
 .loading {
     position: absolute;
-    bottom: 0;
-    left: 45%;
+    top: 85%;
+    left: 42%;
     color: #58817a;
     font-family: monospace;
     font-weight: lighter;
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 9999; 
+    z-index: 300; 
 }
 
 #main-content {
     display: none; 
-}  */
+}  
 /* END OF LOADING SCREEN */
 
 /* MAIN SCREEN */
@@ -408,7 +410,7 @@ body {
 /* end of bottom bread */
 /* other styling */
 
- .ab-cafe {
+.ab-cafe {
     position: absolute;
     top: 27.7%;
     left: 50%;
@@ -420,7 +422,7 @@ body {
     color: #773712;
  }
 
- .location {
+.location {
     position: absolute;
     top: 32%;
     left: 50%;
@@ -432,7 +434,7 @@ body {
     color: #271206;
  }
 
- .menu {
+.menu {
     position: absolute;
     top: 36%;
     left: 58%;
@@ -444,7 +446,7 @@ body {
     color: #5f1715;
  }
 
- .contact {
+.contact {
     position: absolute;
     top: 42.5%;
     left: 58%;
@@ -456,7 +458,7 @@ body {
     color: #323e16;
  }
 
- .reservation {
+.reservation {
     position: absolute;
     top: 49%;
     left: 50%;

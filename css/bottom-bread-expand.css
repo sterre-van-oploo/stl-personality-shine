@@ -24,7 +24,7 @@
     left: 30%;
     top: 30%;
     background-color: #b85f2d;
-    z-index: 13;
+    z-index: 13; 
     transition: all 0.5s ease-in-out;
 }
 

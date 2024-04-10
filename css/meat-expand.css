@@ -27,7 +27,7 @@
     z-index: 19;
     transition: all 0.5s ease-in-out;
 }
-
+ 
 .meat:hover .main-meat-details-right {
     position: absolute;
     left: 61.5%;
